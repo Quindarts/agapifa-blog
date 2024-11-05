@@ -1,27 +1,27 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #001f3f;
-    color: white;
-    padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #001f3f;
+  color: white;
+  padding: 10px 20px;
 }
 
 .logo {
-    font-size: 1.5em;
-    font-weight: bold;
+  font-size: 1.5em;
+  font-weight: bold;
 }
 
 nav a {
-    margin: 0 10px;
-    color: white;
-    text-decoration: none;
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
 }
 
 .search-bar input {
-    padding: 5px;
+  padding: 5px;
 }
 
 .icons .icon {
-    margin-left: 10px;
+  margin-left: 10px;
 }

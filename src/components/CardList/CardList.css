@@ -1,0 +1,17 @@
+.card-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .pagination {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .pagination span {
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  

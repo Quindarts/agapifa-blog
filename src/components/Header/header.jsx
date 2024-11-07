@@ -1,7 +1,9 @@
 import { Icon } from "@iconify/react/dist/iconify.js";
 import "./header.css";
 import { Textfield } from "../textfield/textfield";
+import useUrl from "../../hook/useUrl";
 const Header = () => {
+  const {onSearchChange} = useUrl()
   return (
     <header className="header">
       <div className="header__wrapper">
@@ -28,6 +30,7 @@ const Header = () => {
         <div className="header__search">
           <Textfield
             placeholder="Search..."
+            onChange={onSearchChange}
             icon={<Icon icon="lucide:search" className="header__search-icon" />}
           />
         </div>

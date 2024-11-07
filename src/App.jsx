@@ -1,12 +1,7 @@
-import "./App.css";
-import CardList from "./components/card-list";
+import Routing from './router/index';
 
 function App() {
-  return (
-    <div className="App">
-      <CardList />
-    </div>
-  );
+  return <Routing />;
 }
 
 export default App;
